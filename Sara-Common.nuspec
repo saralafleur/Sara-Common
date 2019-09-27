@@ -1,0 +1,65 @@
+<?xml version="1.0"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2013/01/nuspec.xsd">
+  <metadata>
+    <id>Sara-Common</id>
+    <version>1.2.0</version>
+    <title>Sara Common C#</title>
+    <authors>Sara LaFleur</authors>
+    <owners>Sara LaFleur</owners>
+    <projectUrl>https://github.com/saralafleur/Sara-Common</projectUrl>
+    <iconUrl>https://raw.githubusercontent.com/saralafleur/Sara-Common/master/Avatar4.jpg</iconUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <description>As an Engineer, while working in any language, we always end up creating a standard library.  These libraries fill in the gaps, group common logic together, or provide different forms of syntactical sugar.  'Sara Common' is a standard library for C#.</description>
+    <releaseNotes>Initial version.</releaseNotes>
+    <copyright>Sara LaFleur, 2019</copyright>
+    <tags></tags>
+    <license type="file">LICENSE.txt</license>
+    <repository type="git" url="https://github.com/saralafleur/Sara-Common.git"/>
+    <frameworkAssemblies>
+      <frameworkAssembly assemblyName="System" targetFramework="net48" />
+      <frameworkAssembly assemblyName="System.Core" targetFramework="net48" />
+      <frameworkAssembly assemblyName="System.Data" targetFramework="net48" />
+      <frameworkAssembly assemblyName="System.Drawing" targetFramework="net48" />
+      <frameworkAssembly assemblyName="System.IO.Compression.FileSystem" targetFramework="net48" />
+      <frameworkAssembly assemblyName="System.Numerics" targetFramework="net48" />
+      <frameworkAssembly assemblyName="System.Runtime.Serialization" targetFramework="net48" />
+      <frameworkAssembly assemblyName="System.Xml" targetFramework="net48" />
+      <frameworkAssembly assemblyName="System.Xml.Linq" targetFramework="net48" />
+      <frameworkAssembly assemblyName="PresentationCore" targetFramework="net48" />
+      <frameworkAssembly assemblyName="WindowsBase" targetFramework="net48" />
+    </frameworkAssemblies>
+
+    <dependencies>
+      <group targetFramework="netstandard2.0">
+      </group>
+      <group targetFramework="netcoreapp2.2">
+      </group>
+      <group targetFramework="net48">
+      </group>
+    </dependencies>
+  </metadata>
+  <files>
+    <!-- Sara.NETFramework.Common -->
+    <file src=".NET Framework\Sara.NETFramework.Common\bin\Release\Sara.NETFramework.Common.dll" target="lib\net48" />
+    <file src=".NET Framework\Sara.NETFramework.Common\bin\Release\Sara.NETFramework.Common.pdb" target="lib\net48" />
+
+    <!-- Sara.NETStandard.Common -->
+    <file src=".NET Standard\Sara.NETStandard.Common\bin\Release\net48\Sara.NETStandard.Common.dll" target="lib\net48" />
+    <file src=".NET Standard\Sara.NETStandard.Common\bin\Release\net48\Sara.NETStandard.Common.pdb" target="lib\net48" />
+    <file src=".NET Standard\Sara.NETStandard.Common\bin\Release\netcoreapp2.2\Sara.NETStandard.Common.dll" target="lib\netcoreapp2.2" />
+    <file src=".NET Standard\Sara.NETStandard.Common\bin\Release\netcoreapp2.2\Sara.NETStandard.Common.pdb" target="lib\netcoreapp2.2" />
+    <file src=".NET Standard\Sara.NETStandard.Common\bin\Release\netstandard2.0\Sara.NETStandard.Common.dll" target="lib\netstandard2.0" />
+    <file src=".NET Standard\Sara.NETStandard.Common\bin\Release\netstandard2.0\Sara.NETStandard.Common.pdb" target="lib\netstandard2.0" />
+
+    <!-- Sara.NETStandard.ReadOnlyDictionary -->
+    <file src=".NET Standard\Sara.NETStandard.ReadOnlyDictionary\bin\Release\net48\Sara.NETStandard.ReadOnlyDictionary.dll" target="lib\net48" />
+    <file src=".NET Standard\Sara.NETStandard.ReadOnlyDictionary\bin\Release\net48\Sara.NETStandard.ReadOnlyDictionary.pdb" target="lib\net48" />
+    <file src=".NET Standard\Sara.NETStandard.ReadOnlyDictionary\bin\Release\netcoreapp2.2\Sara.NETStandard.ReadOnlyDictionary.dll" target="lib\netcoreapp2.2" />
+    <file src=".NET Standard\Sara.NETStandard.ReadOnlyDictionary\bin\Release\netcoreapp2.2\Sara.NETStandard.ReadOnlyDictionary.pdb" target="lib\netcoreapp2.2" />
+    <file src=".NET Standard\Sara.NETStandard.ReadOnlyDictionary\bin\Release\netstandard2.0\Sara.NETStandard.ReadOnlyDictionary.dll" target="lib\netstandard2.0" />
+    <file src=".NET Standard\Sara.NETStandard.ReadOnlyDictionary\bin\Release\netstandard2.0\Sara.NETStandard.ReadOnlyDictionary.pdb" target="lib\netstandard2.0" />
+
+    <!-- License -->
+    <file src="LICENSE.txt" target="" />
+  </files>
+</package>

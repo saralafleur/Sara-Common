@@ -1,0 +1,18 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFrameworks>netstandard2.0;net48;netcoreapp2.2</TargetFrameworks>
+    <GeneratePackageOnBuild>false</GeneratePackageOnBuild>
+    <Description></Description>
+    <Authors>Sara LaFleur</Authors>
+    <Company>Sara</Company>
+    <Copyright>Sara LaFleur, 2019</Copyright>
+    <PackageProjectUrl></PackageProjectUrl>
+    <RepositoryUrl></RepositoryUrl>
+    <Version>1.0.1</Version>
+    <RepositoryType></RepositoryType>
+    <PackageLicenseFile>LICENSE.txt</PackageLicenseFile>
+    <PackageIconUrl></PackageIconUrl>
+    <Configurations>Debug;Release</Configurations>
+  </PropertyGroup>
+</Project>
