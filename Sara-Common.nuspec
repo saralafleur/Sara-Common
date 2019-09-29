@@ -2,7 +2,7 @@
 <package xmlns="http://schemas.microsoft.com/packaging/2013/01/nuspec.xsd">
   <metadata>
     <id>Sara-Common</id>
-    <version>1.2.2</version>
+    <version>1.2.5</version>
     <title>Sara Common C#</title>
     <authors>Sara LaFleur</authors>
     <owners>Sara LaFleur</owners>

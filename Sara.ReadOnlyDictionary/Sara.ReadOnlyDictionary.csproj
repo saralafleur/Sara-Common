@@ -6,10 +6,10 @@
     <Description></Description>
     <Authors>Sara LaFleur</Authors>
     <Company>Sara</Company>
-    <Copyright>Sara LaFleur, 2019</Copyright>
+    <Copyright></Copyright>
     <PackageProjectUrl></PackageProjectUrl>
     <RepositoryUrl></RepositoryUrl>
-    <Version>1.0.1</Version>
+    <Version>1.2.5</Version>
     <RepositoryType></RepositoryType>
     <PackageLicenseFile>LICENSE.txt</PackageLicenseFile>
     <PackageIconUrl></PackageIconUrl>
