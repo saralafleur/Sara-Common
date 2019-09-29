@@ -2,7 +2,7 @@
 <package xmlns="http://schemas.microsoft.com/packaging/2013/01/nuspec.xsd">
   <metadata>
     <id>Sara-Common</id>
-    <version>1.2.1</version>
+    <version>1.2.2</version>
     <title>Sara Common C#</title>
     <authors>Sara LaFleur</authors>
     <owners>Sara LaFleur</owners>
@@ -11,7 +11,7 @@
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
     <description>As an Engineer, while working in any language, we always end up creating a standard library.  These libraries fill in the gaps, group common logic together, or provide different forms of syntactical sugar.  'Sara Common' is a standard library for C#.</description>
     <releaseNotes>Initial version.</releaseNotes>
-    <copyright>Sara LaFleur, 2019</copyright>
+    <copyright>(c) 2019, Sara LaFleur</copyright>
     <tags></tags>
     <license type="file">LICENSE.txt</license>
     <repository type="git" url="https://github.com/saralafleur/Sara-Common.git"/>
