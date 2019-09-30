@@ -37,7 +37,6 @@ namespace Sara.Common.Threading
                 IsBackground = false
             };
             _consumerThread.Start();
-
         }
         ~IgnoreBacklogQueue()
         {
@@ -106,6 +105,7 @@ namespace Sara.Common.Threading
             lock (_syncObject)
                 _Items.Add(item);
 
+            // Notfiy the Thread a new Item has been enqueue
             _newItemEvent.Set();
         }
     }
