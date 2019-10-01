@@ -10,7 +10,7 @@
     <iconUrl>https://raw.githubusercontent.com/saralafleur/Sara-Common/master/Avatar4.jpg</iconUrl>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
     <description>As an Engineer, while working in any language, we always end up creating a standard library.  These libraries fill in the gaps, group common logic together, or provide different forms of syntactical sugar.  'Sara Common' is a standard library for C#.</description>
-    <releaseNotes>Restored ThreadQueue.</releaseNotes>
+    <releaseNotes>Sara-LogReader builds...</releaseNotes>
     <copyright>(c) 2019, Sara LaFleur</copyright>
     <tags></tags>
     <license type="file">LICENSE.txt</license>
